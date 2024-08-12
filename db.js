@@ -1,4 +1,8 @@
 const mongodb = require('mongoose')
+// require('dotenv').config()
+// const URLmongodb = process.env.URLmongodb;
+// const URLmongodbLocal = process.env.URLmongodbLocal;
+
 const URLmongodb = 'mongodb://localhost:27017/Hotels';
 
 mongodb.connect(URLmongodb, {
